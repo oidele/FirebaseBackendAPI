@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		559C2482F85C5BE07CC2F9DB /* Pods_FirebaseBackendAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334CBD84C7431F5F33BA7307 /* Pods_FirebaseBackendAPI.framework */; };
 		7546742A2650FB780081CD19 /* BackendAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754674292650FB780081CD19 /* BackendAPI.swift */; };
+		7546742C265104550081CD19 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7546742B265104550081CD19 /* .gitignore */; };
 		75A4A9A42650E066006C4940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4A9A32650E066006C4940 /* AppDelegate.swift */; };
 		75A4A9A62650E066006C4940 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4A9A52650E066006C4940 /* SceneDelegate.swift */; };
 		75A4A9A82650E066006C4940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4A9A72650E066006C4940 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		334CBD84C7431F5F33BA7307 /* Pods_FirebaseBackendAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseBackendAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754674292650FB780081CD19 /* BackendAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendAPI.swift; sourceTree = "<group>"; };
+		7546742B265104550081CD19 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		75A4A9A02650E066006C4940 /* FirebaseBackendAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseBackendAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A4A9A32650E066006C4940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75A4A9A52650E066006C4940 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		75A4A9972650E066006C4940 = {
 			isa = PBXGroup;
 			children = (
+				7546742B265104550081CD19 /* .gitignore */,
 				75A4A9A22650E066006C4940 /* FirebaseBackendAPI */,
 				75A4A9A12650E066006C4940 /* Products */,
 				50A4BBEE05C508BB8BCE4A26 /* Pods */,
@@ -156,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7546742C265104550081CD19 /* .gitignore in Resources */,
 				75A4A9B02650E067006C4940 /* LaunchScreen.storyboard in Resources */,
 				75A4A9B82650E2EA006C4940 /* GoogleService-Info.plist in Resources */,
 				75A4A9AD2650E067006C4940 /* Assets.xcassets in Resources */,
