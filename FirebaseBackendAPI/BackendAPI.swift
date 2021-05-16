@@ -8,6 +8,7 @@
 import UIKit
 import FirebaseCore
 import FirebaseFirestore
+import FirebaseFirestoreSwift
 import Runtime
 
 public class BackendAPI<T : Codable>: NSObject, Codable {
@@ -19,7 +20,6 @@ public class BackendAPI<T : Codable>: NSObject, Codable {
         do {
             let info = try typeInfo(of: T.self)
             let docId = try info.property(named: docIdStr)
-            print(docId)
             if docId.name != "" {
                 var ref: DocumentReference? = nil
                 ref = Firestore.firestore().collection(typeNameStr).document()
